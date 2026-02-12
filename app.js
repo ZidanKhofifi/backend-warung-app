@@ -11,7 +11,7 @@ require('dotenv').config();
 // 1. Setup CORS dengan fleksibilitas untuk Production
 const allowedOrigins = [
   "http://localhost:5173", 
-  "https://nama-project-frontend.vercel.app" // GANTI dengan URL Vercel Frontend
+  "https://frontend-warung-app-gtc3.vercel.app/" // GANTI dengan URL Vercel Frontend
 ];
 
 app.use(cors({

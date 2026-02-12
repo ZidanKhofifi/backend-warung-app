@@ -1,0 +1,55 @@
+# --- DEPENDENCIES ---
+# Folder node_modules sangat berat dan bisa diunduh ulang dengan 'npm install'
+node_modules/
+jspm_packages/
+
+# --- CONFIG & SECRETS ---
+# SANGAT PENTING: Jangan upload file yang berisi API Key atau password database
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config/config.json
+config/database.json
+
+# --- LOGS ---
+# Log dari aplikasi atau sistem
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# --- RUNTIME DATA ---
+# Folder untuk database lokal atau file upload sementara
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+.nyc_output
+
+# --- IDE & SYSTEM ---
+# File bawaan editor atau sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# --- BUILDS & DIST ---
+# Jika menggunakan TypeScript atau tool kompilasi lainnya
+dist/
+build/
+out/
+.tsbuildinfo
+
+# --- OPTIONAL: UPLOADS ---
+# Jika sistem menyimpan file upload pelanggan secara lokal
+public/uploads/
+storage/
